@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+a:hover {
+    color: #4285F4;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.login-btn {
+    background: none;
+    color: #3498db;
+    border: 2px solid #3498db;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 16px;
+}
+
+.login-btn:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+.my-icon {
+
+    cursor: pointer;
+    color: black;
+}
+
+.my-icon:hover {
+    color: #4285F4;
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.google-logo {
+    font-family: Arial, sans-serif;
+    display: flex;
+    font-size: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    height: 30vh;
+}
+
+.g1 {
+    color: #4285F4;
+}
+
+.o1 {
+    color: #EA4335;
+}
+
+.o2 {
+    color: #FBBC05;
+}
+
+.g2 {
+    color: #4285F4;
+}
+
+.l {
+    color: #34A853;
+}
+
+.e {
+    color: #EA4335;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Search-bar {
+    width: 50%;
+    height: 44px;
+    padding: 10px 40px 10px 50px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+}
+
+.search-icon {
+    position: fixed;
+    top: 265px;
+    right: 360px;
+    color: gray;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mic-icon {
+    position: fixed;
+    top: 265px;
+    right: 400px;
+    color: gray;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    gap: 20px;
+}
+
+.search-google {
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+}
+
+.la-chance {
+    border: 1px solid #dfe1e5;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgb(61, 60, 60);
+}
+
+.search-google:hover {
+    background-color: #d6d7db;
+    transition: 0.3s;
+}
+
+.la-chance:hover {
+    background-color: #d6d7db;
+    transition: 0.3s;
+}
